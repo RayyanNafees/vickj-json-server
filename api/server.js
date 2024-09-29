@@ -12,7 +12,7 @@ const server = jsonServer.create();
 // const router = jsonServer.router(db)
 
 // Comment out to allow write operations
-const router = jsonServer.router("total.json");
+const router = jsonServer.router("db.json");
 
 const port = 3000;
 
