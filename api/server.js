@@ -19,7 +19,7 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 // Add this before server.use(router)
 server.use(
-  jsonServer.rewriter({
+  jsonServer.rewriter({c
     "/api/*": "/$1",
     "/blog/:resource/:id/show": "/:resource/:id",
   })
